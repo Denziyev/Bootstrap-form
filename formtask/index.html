@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body >
+    <div class=" contanier-md  d-flex flex-column align-items-center  ">
+        <div class="d-flex flex-column align-items-center text-center " style="width: 1000px;">
+            <div class="d-flex justify-content-center mt-4">
+                <img src="./images/download.jpeg" alt="bootstrap" style="width:60px">
+            </div>
+            <div class=" container d-flex flex-column align-items-center mt-3 text-center px-5 mb-5" >
+                <h4 class="">Checkout form</h4>
+                <p  class="fs-5">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+            </div>
+            <div class="mb-5">
+                <div class="row container-md">
+      
+                    <div class="col-8 ">
+                        <div class="  px-20px border-bottom border-black border-1 border-opacity-25">
+                            <p class="text-start mb-2 fw-bold fs-4">Billing Address</p>
+         
+         
+                            <div class="d-flex justify-content-between text-start container px-0">
+                             <div class="d-flex flex-column col-auto">
+                                 <p class="mb-1 fw-medium">First name</p>
+                                 <input class="form-control col-auto" type="text"style="width: 290px" aria-label="default input example">
+                             </div>
+                             <div class="d-flex flex-column ms-2">
+                                 <p class="mb-1 fw-medium">Last name</p>
+                                 <input class="form-control col-auto" type="text" style="width: 290px" aria-label="default input example">
+                             </div>
+                            </div>
+         
+         
+                            <div class="d-flex flex-column mt-3 ">
+         
+                             <label for="Username" class="text-start d-flex"> <p class="fw-medium mb-1">Username</p> </label>
+                             <div class="input-group mb-4">
+                                 <span class="input-group-text" id="basic-addon1">@</span>
+                                 <input type="text" id="Username" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                               </div>
+                             
+                               
+                               <div class="mb-3">
+                                 <label for="exampleInputEmail1" class="text-start d-flex"> <p class="fw-medium mb-1">Email </p> (optional)</label>
+                                 <input type="email" class="form-control"placeholder="you@example.com" id="exampleInputEmail1" aria-describedby="emailHelp">                       
+                               </div>
+          
+                               <div class="mb-3">
+                                 <label for="Adress1" class="text-start d-flex"> <p class="fw-medium mb-1">Adress</p> </label>
+                                 <input type="text" id="Adress1" class="form-control" placeholder="1234 Main st" aria-label="Username" aria-describedby="basic-addon1">                 
+                               </div>
+         
+                               <div class="mb-3">
+                                 <label for="Adress2" class="text-start d-flex"> <p class="fw-medium mb-1">Adress 2</p>(optional) </label>
+                                 <input type="text" id="Adress2" class="form-control" placeholder="Apartment or suite" aria-label="Username" aria-describedby="basic-addon1">                 
+                               </div>
+         
+                               <div class="d-flex">
+                                 <div class="me-3 col-5">
+                                     <label for="select1" class="text-start d-flex"> <p class="fw-medium mb-1">Country</p> </label>
+                                     <select class="form-select  mb-3" id="select1"aria-label=".form-select-lg example">
+                                         <option selected>United States</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                 </div>
+                                 
+                                 <div class="me-3 col-4">
+                                     <label for="select2" class="text-start d-flex"> <p class="fw-medium mb-1">State</p></label>
+                                     <select class="form-select  mb-3" aria-label=".form-select-lg example" id="select1">
+                                         <option selected>Choose</option>
+                                         <option value="1">One</option>
+                                         <option value="2">Two</option>
+                                         <option value="3">Three</option>
+                                       </select>
+                                 
+                                 </div>
+         
+                                 <div class="mb-3 ">
+                                     <label for="Zip" class="text-start d-flex"> <p class="fw-medium mb-1">Zip</p></label>
+                                     <input type="text" id="Zip" class="form-control"   aria-describedby="basic-addon1">                 
+                                   </div>
+                                   
+         
+         
+                               </div>
+         
+                            </div>
+                         </div>
+    
+                         <div  class="border-bottom border-black border-1 border-opacity-25 text-start">
+                            <div class="form-check mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Default checkbox
+                                </label>
+                              </div>
+                              <div class="form-check mb-3 ">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  Checked checkbox
+                                </label>
+                              </div>
+                        </div>
+    
+    
+                        <div class="text-start">
+                            <h3 class="mb-2 mt-3">Payment</h3>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Default radio
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Default checked radio
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Default checked radio
+                                </label>
+                              </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-between text-start mt-3">
+                            <div class="d-flex flex-column e-3 col-auto">
+                                <p class="mb-1 fw-medium">Name on Card</p>
+                                <input class="form-control col-auto" type="text"style="width: 300px" aria-label="default input example">
+                                <div class="form-text">Full name as displayed on card</div>
+                            </div>
+                            <div class="d-flex flex-column ms-3">
+                                <p class="mb-1 fw-medium">Credit card number</p>
+                                <input class="form-control col-auto" type="text" style="width: 300px" aria-label="default input example">
+                            </div>
+                           </div>
+    
+                           <div class="d-flex  text-start mt-3 border-bottom border-1 border-black border-opacity-25">
+                            <div class="col-6 d-flex">
+                                <div class="d-flex flex-column">
+                                    <p class="mb-1 fw-medium">Expiration</p>
+                                    <input class="form-control col-6" type="text" aria-label="default input example">
+                                    
+                                </div>
+                                <div class="d-flex flex-column ms-3 mb-4">
+                                    <p class="mb-1 fw-medium">CVV</p>
+                                    <input class="form-control col-6" type="text"  aria-label="default input example">
+                                </div>
+                               </div>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button class="btn btn-primary col-12" type="submit">Continue to checkout</button>
+                              </div>
+    
+                   
+                         
+                    </div>
+                    
+    
+                     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                    
+            </div>
+            
+        </div>
+        <div class="d-flex flex-column ">
+            <div>
+                <p class="mb-2 fw-medium text-secondary text-opacity-75">2017-2021 Company name</p>
+            </div>
+           <div class="d-flex column-gap-2">
+            <a  href="">Privacy</a>
+            <a  href="">Terms</a>
+            <a  href="">Support</a>
+           </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
